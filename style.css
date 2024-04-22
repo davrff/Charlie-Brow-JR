@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 4px rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#dov {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    box-shadow: 0px 0px 20px black;
+     background-color: lightgrey;
+     padding: 2px;
+     margin: 2px;
+     border-radius: 10px;
+     margin: auto;
+     min-width: 320px;
+     max-width: 800px;
+}
+
+main > #dov {
+    display: flex;
+    justify-content: center;
+}
+
+main > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+main img {
+    width: 300px;
+}
+
+img {
+    filter: drop-shadow(1px 1px 10px rgb(0, 0, 0));
+}
